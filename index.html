@@ -38,6 +38,8 @@
 
   .link {
     background-color: #f9bc60;
+    display: flex;
+    align-items: center;
   }
 
   .link a {
@@ -45,23 +47,34 @@
     text-decoration: none;
   }
 
-  
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 640px;
+  }
+
+
  </style>
 </head> 
 
   <body>
-      <div class="banner">
-        <img src="/thumbnails/MH.jpeg " alt="Maurius Hill headshot" class="banner-image">
-      </div>
+    <div class="items">
 
-      <div class="name">
+    </div>
+
+    <div class="banner">
+      <img src="/thumbnails/MH.jpg " alt="Maurius Hill headshot" class="banner-image">
+    </div>
+
+    <div class="name">
         Maurius Hill
-      </div>
+     </div>
 
-      <div class="social-icons">
-        <a href="https://github.com/mauriushill" target="_blank">
+    <div class="social-icons">
+      <a href="https://github.com/mauriushill" target="_blank">
           GitHub
-        </a>
+      </a>
 
         <a href="https://www.linkedin.com/in/maurius-hill/" target="_blank">
           LinkedIn
